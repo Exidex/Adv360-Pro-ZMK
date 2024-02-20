@@ -69,6 +69,7 @@
 
     del_bspc: backspace_as_delete {
       compatible = "zmk,behavior-mod-morph";
+      label = "BACKSPACE_AS_DELETE";
       #binding-cells = <0>;
       bindings = <&kp BSPC>, <&kp DEL>;
       mods = <(MOD_LSFT)>;
