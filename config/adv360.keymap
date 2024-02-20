@@ -67,7 +67,7 @@
       hold-trigger-on-release;
     };
 
-    del_bspc {
+    del_bspc: backspace_as_delete {
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
       bindings = <&kp BSPC>, <&kp DEL>;
